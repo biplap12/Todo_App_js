@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        
+        <textarea id="field" placeholder="Enter your todo"  required></textarea>
+        <input type="date"  id="dateField" required>
+        <button onclick="addTodo()" class="add_btn">Add Todo</button><br>
+        <div id="error_message" class="error_message"></div>
+        <div id="todo_container"></div>
+
+    </div>
+    <footer class="copyright">
+        &copy; 2023 <a href="https://biplapneupane.com.np/" target="_blank" rel="noopener noreferrer">Biplap Neupane</a>. All rights reserved.
+    </footer>
+    <script src="script_TODO.js"></script>
+</body>
+</html>
